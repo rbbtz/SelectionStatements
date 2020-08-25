@@ -1,0 +1,12 @@
+/Users/Cerebro/repos/SelectionStatements/SelectionStatements/SelectionStatements/obj/Debug/netcoreapp3.1/SelectionStatements.csprojAssemblyReference.cache
+/Users/Cerebro/repos/SelectionStatements/SelectionStatements/SelectionStatements/obj/Debug/netcoreapp3.1/SelectionStatements.AssemblyInfoInputs.cache
+/Users/Cerebro/repos/SelectionStatements/SelectionStatements/SelectionStatements/obj/Debug/netcoreapp3.1/SelectionStatements.AssemblyInfo.cs
+/Users/Cerebro/repos/SelectionStatements/SelectionStatements/SelectionStatements/obj/Debug/netcoreapp3.1/SelectionStatements.csproj.CoreCompileInputs.cache
+/Users/Cerebro/repos/SelectionStatements/SelectionStatements/SelectionStatements/bin/Debug/netcoreapp3.1/SelectionStatements.deps.json
+/Users/Cerebro/repos/SelectionStatements/SelectionStatements/SelectionStatements/bin/Debug/netcoreapp3.1/SelectionStatements.runtimeconfig.json
+/Users/Cerebro/repos/SelectionStatements/SelectionStatements/SelectionStatements/bin/Debug/netcoreapp3.1/SelectionStatements.runtimeconfig.dev.json
+/Users/Cerebro/repos/SelectionStatements/SelectionStatements/SelectionStatements/bin/Debug/netcoreapp3.1/SelectionStatements.dll
+/Users/Cerebro/repos/SelectionStatements/SelectionStatements/SelectionStatements/bin/Debug/netcoreapp3.1/SelectionStatements.pdb
+/Users/Cerebro/repos/SelectionStatements/SelectionStatements/SelectionStatements/obj/Debug/netcoreapp3.1/SelectionStatements.dll
+/Users/Cerebro/repos/SelectionStatements/SelectionStatements/SelectionStatements/obj/Debug/netcoreapp3.1/SelectionStatements.pdb
+/Users/Cerebro/repos/SelectionStatements/SelectionStatements/SelectionStatements/obj/Debug/netcoreapp3.1/SelectionStatements.genruntimeconfig.cache
