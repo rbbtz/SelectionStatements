@@ -6,38 +6,66 @@ namespace SelectionStatements
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the number guessing game!");
-            Console.WriteLine("See if you can guess the correct number!");
-            Console.WriteLine("What is the upper limit for the range of the number?");
+            var r = new Random();
+            var favNumber = r.Next(1, 20);
 
-            var userResponse = Console.ReadLine();
+            Console.WriteLine("Guess my Favorite Number!");
 
-            var upperLimit = int.Parse(userResponse);
 
-            var random = new Random();
-            var number = random.Next(1, upperLimit);
+            var userInput = int.Parse(Console.ReadLine());
 
-            int guess:
-            do
-            { }
+            if (userInput < favNumber)
+            {
+                Console.WriteLine($"too low");
+            }
+            else if (userInput > favNumber)
+            {
+                Console.WriteLine($"too high");
 
-                Console.WriteLine("Input your guess:");
+            }
+            else
+            {
+                Console.WriteLine($"Nevermind");
+            }
 
-                guess = int.Parse(Console.ReadLine());
+            Console.WriteLine($"What is your favorite subject?");
 
-                 if (guess > number)
-                  {
-                    Console.WriteLine("Your guess is too high! Sorry");
-                  }
-                  else if (guess < number)
-                  {
-                     Console.WriteLine("Your guess is too low! Sorry");
-                    }
-                  else
-                    {
-                    Console.WriteLine("Correct!");
-                     }
-             } while (guess != number;)
+            var subject = Console.ReadLine().ToLower();
+
+
+
+            switch (subject)
+            {
+                case "math":
+                    Console.WriteLine($"maths");
+                    break;
+                case "history":
+                    Console.WriteLine($"History repeats itself!");
+                    break;
+                case "art":
+                    Console.WriteLine($"Creativity pushes us forward");
+                    break;
+                case "science":
+                    Console.WriteLine($"Ah, the natural world");
+                    break;
+                case "english":
+                    Console.WriteLine($"Words never say what they mean, don't mean what they say");
+                    break;
+                case "physics":
+                    Console.WriteLine($"It's all about entropy, right?");
+                    break;
+                case "chemistry":
+                    Console.WriteLine($"These PH levels!");
+                    break;
+                case "Programming":
+                    Console.WriteLine($"Let's collab!");
+                    break;
+                default:
+                    Console.WriteLine($"You're an original");
+                    break;
+
+            }
+
 
         }
     }
